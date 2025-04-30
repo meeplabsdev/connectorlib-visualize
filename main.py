@@ -50,13 +50,13 @@ async def take_snapshot(uri: str) -> dict:
 
 
 def main():
-    eel.init("web")
+    eel.init("web/out")
 
     @eel.expose
     def get_snapshot(uri):
         return asyncio.run(take_snapshot(uri))
 
-    eel.start("index.html", mode="edge")
+    eel.start("index.html", mode="edge", cmdline_args=["--start-fullscreen", "--kiosk"], block=True)
 
 
 if __name__ == "__main__":
