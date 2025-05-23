@@ -1,2 +1,1 @@
-# connectorlib-visualize
-The visualizer code for connectorlib.
+The visualizer code for connectorlib. For more information or the documentation, visit [github.com/meeplabsdev/connectorlib](https://github.com/meeplabsdev/connectorlib). This will probably get merged into [github.com/meeplabsdev/connectorlib-server](https://github.com/meeplabsdev/connectorlib-server) eventually.
