@@ -1,0 +1,10 @@
+[package]
+name = "connectorlib-visualize"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4.11.0"
+anyhow = "1.0.98"
+log = "0.4.27"
+vite-actix = "0.2.5"
